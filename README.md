@@ -1,41 +1,118 @@
-# Teckit_BackEnd
+# 수강 이력
+![image](https://github.com/leestana01/Teckit_BackEnd/assets/74558236/2678677b-a9d3-43e4-b2e9-b0d0d4980046)
 
-## Repo 설명
-LikeLion에서 진행하는 Teckit 강의 수강기록을 작성하는 공간입니다.
+# Web의 등장
 
-## 스터디 규칙 (백엔드)
-- 깃허브 링크 업로드: 한 레포지토리에 주차별 수강기록을 구분해 업로드
-- 강의에 나온 코드 따라 치기 + 강의 수강 100% 화면 캡쳐해서 올리기
-- 이론적인 내용밖에 없다면 md(마크다운)파일을 생성해 주요 용어 정리
+개방 / 고속 / 광랜의 사용 → 발전
 
-## 주차별 강의 목록 - 최종 목표 : Backend-Django 트랙 교육 강의 수강
+# 클라이언트와 서버
 
-| 실습 명 | 시간 | 챕터 |
-|---|---|---|
-| Python django 온보딩 트랙 | 1시간 13분 | Chapter 12. Web의 동작 원리 - 클라이언트와 서버의 만남 |
-| Python django 온보딩 트랙 | 10분 + 21분 | Chapter 13. Django 구조 및 작동 원리 <br>Chapter 14. Django CRUD API 구현 |
-| 파이썬 Django 실습 | 3시간 36분 | Chapter 1. Prologue: 백엔드 개발 기초 |
-| 파이썬 Django 실습 | 1시간 54분 | Chapter 2. 데이터베이스와 ORM 완벽 이해하기 |
-| 파이썬 Django 실습 | 2시간 24분 | Chapter 3. QuerySet API와 Admin 개발하기 |
-| 파이썬 Django 실습 | 2시간 23분 | Chapter 4. Template과 View 정복하기 |
-| 파이썬 Django 실습 | 2시간 39분 | Chapter 5. 백엔드의 필수: CRUD 개발하기 |
-| 파이썬 Django 실습 | 3시간 11분 | Chapter 6. Form을 활용한 회원가입과 로그인 구현하기 |
-| 파이썬 Django 실습 | 2시간 7분 | Chapter 7. 백엔드 개발자 필수 역량: API 개발하기 (1) |
-| 파이썬 Django 실습 | 4시간 22분 + a | Chapter 8. 백엔드 개발자 필수 역량: API 개발하기 (2) <br>Chapter 9. 백엔드 서비스 배포하기 |
+## 클라이언트
 
-## 주차별 강의 목록 - 최종 목표 : JAVA-Django 트랙 교육 강의 수강
+크롬 / 사파리 등의 Explorer
 
-| 실습 명 | 시간 | 챕터 |
-|---|---|---|
-| Java Spring 온보딩 트랙 | 1시간 13분 | Chapter 13. Web의 동작 원리 - 클라이언트와 서버의 만남 |
-| Java Spring 온보딩 트랙 | 6분 + 43분 | Chapter 14. Spring Boot 의 구조 및 작동 원리 <br>Chapter 15. Spring Boot 데이터베이스 연동 및 CRUD API 구현 |
-| Java Spring 실습 | 1시간 28분 | Chapter 1. Basics |
-| Java Spring 실습 | 1시간 59분 | Chapter 2. Spring Boot Basics (1) |
-| Java Spring 실습 | 2시간 50분 | Chapter 3. Spring Boot Basics (2) |
-| Java Spring 실습 | 2시간 29분 | Chapter 4. CRUD & Data (1) |
-| Java Spring 실습 | 4시간 4분 | Chapter 5. CRUD & Data (2) |
-| Java Spring 실습 | 3시간 6분 | Chapter 6. Spring Boot 기능활용 (1) |
-| Java Spring 실습 | 3시간 30분 | Chapter 7. Spring Boot 기능활용 (2) |
-| Java Spring 실습 | 3시간 23분 | Chapter 8. Spring Security |
-| Java Spring 실습 | 3시간 29분 | Chapter 9. Spring과 Middlewares |
-| Java Spring 실습 | 3시간 10분 | Chapter 10. Spring Cloud Project |
+## 서버
+
+Google 등의 회사
+
+둘 사이에서 Request와 Response를 주고받음
+
+# HTTP와 URL
+
+## HTML
+
+HyperText Transfer Protocol
+
+일정한 규칙을 통해 통신하는 방식
+
+## URL
+
+Uniform Resource Locator
+
+## 기능별 예시
+
+[https://www.google.com/search?q=techit 을](https://www.google.com/search?q=techit을) 예시로 들자.
+
+### 프로토콜
+
+https:// 와 같은 형태로 통신 규칙을 언급함
+
+### 호스트
+
+[www.google.com](http://www.google.com) 과 같은 형태
+
+### 경로
+
+/search 와 같은 서비스의 분할
+
+### 쿼리 문자열
+
+? 기호로 시작, &로 연결
+
+키/값 쌍으로 구성
+
+# 쿠키와 세션
+
+서버에서 클라이언트로 보내져서 브라우저에 저장되는 아주 작은 키와 값
+
+로그인, 장바구니 등에 사용
+
+# IP, Port 그리고 DNS
+
+## 네트워크
+
+2대 이상의 컴퓨터가 서로 연결되어있는 형태
+
+### 호스트
+
+연결된 컴퓨터들
+
+### 스위치
+
+동일한 네트워크 내에서 호스트 간의 통신을 돕는 것
+
+다만, 다른 네트워크에는 접근할 수 없음
+
+### 라우터(공유기)
+
+다른 네트워크에 접근할 수 있게 함
+
+## IP 주소
+
+네트워크에서 컴퓨터가 부여받는 고유한 주소
+
+### 공인 IP
+
+전체 인터넷 망에서 고유하게 식별 가능한 주소
+
+IPv4 체계에서 자원 부족
+
+### 사설 IP
+
+가정의 LAN과 같은 네트워크에서 할당되는 주소
+
+컴퓨터에서 조회되는 IP
+
+### 일련의 과정
+
+통신사 → 공인 IP → 사설 IP
+
+### 127.0.0.1
+
+Localhost(본인)을 의미함
+
+## Port
+
+하나의 컴퓨터에는 다양한 서비스가 실행 중
+
+→ 서비스를 구분하는 역할
+
+## DNS
+
+Domain Name Service
+
+URL을 해석하여 IP로 변환하는 서버
+
+### 일련의 과정
+
+URL 입력 → DNS Server → 관련 IP 찾아서 반환 → 해당 IP로 접속
