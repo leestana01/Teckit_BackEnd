@@ -1,3 +1,7 @@
+# 수강 이력
+![image](https://github.com/leestana01/Teckit_BackEnd/assets/74558236/97deab17-233d-46fc-93af-6cf6cd9e934b)
+
+
 # branch 설명
 
 4주차 branch 입니다.
